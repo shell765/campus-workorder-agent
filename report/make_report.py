@@ -411,7 +411,7 @@ def build():
 
     # ================= 附录 =================
     h1(doc, "附录 A  代码仓库与运行说明（对应提交材料②）")
-    body(doc, "代码仓库地址：____________________________________（提交前填写 GitHub / Hugging Face 公开链接）",
+    body(doc, "代码仓库地址：https://github.com/shell765/campus-workorder-agent（公开仓库，含 README、依赖、运行步骤与测试）",
          first_indent=False, size=10)
     h2(doc, "A.1 仓库结构")
     body(doc, "README.md（项目说明、快速开始、接口、指标与隐私边界）；requirements.txt（固定版本依赖）；run_web.bat（Windows 一键启动）；"
