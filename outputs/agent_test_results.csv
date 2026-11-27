@@ -1,0 +1,268 @@
+﻿ticket_id,text,true,pred,confidence,needs_review,review_reason,priority,resolution,route_to,kb_hits,kb_top_score,degraded,reply_len,correct,auto_answered
+T00730,老师好，开卷考试可以带打印资料吗,exam,exam,0.9999976210585562,False,,低,auto_answered,任课教师 / 教务,2,0.6162,False,144,1,1
+T01125,这个课的给分高不高 麻烦了,other,other,0.9993342397331202,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00395,课程群二维码过期了，扫不进去！,system,system,0.9945391558522501,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T00492,老师好，作业文件下载后打不开，提示文件已损坏,system,system,0.9999976895980298,False,,中,auto_answered,平台技术支持,2,0.55,False,166,1,1
+T01191,想问下这门课有意思吗，值得选吗，在线等,other,other,0.9387438397764942,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00358,想问下上传作业附件失败，提示文件超过大小限制，麻烦了,system,system,0.9999964626677276,False,,中,auto_answered,平台技术支持,1,0.576,False,154,1,1
+T00523,提交的作业显示已提交，但文件列表是空的，在线等,system,system,0.9999982811653175,False,,中,auto_answered,平台技术支持,1,0.703,False,151,1,1
+T01121,请问这套 PPT 模板挺好看的，哪里下的，谢谢！,other,other,0.9999881404598578,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00808,打扰一下，考试地点在哪，几点开始！,exam,exam,0.9999721584786226,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+T00326,手机端学校VPN闪退，重装也没用,system,system,0.9999941108530844,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T00744,请问考试地点在哪，几点开始😭,exam,exam,0.9999185607472584,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+T00471,课件下载下来是乱码，PDF 打不开，急！,system,system,0.999996133391662,False,,中,auto_answered,平台技术支持,2,0.6134,False,150,1,1
+T00039,老丝好，大学英语做业的第4题，题目里的数据单位是 MB 还是 GB,homework,homework,0.9999951700168994,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00393,上传作业附件失败，提示文件超过大小限制！,system,system,0.9999985952208509,False,,中,auto_answered,平台技术支持,1,0.576,False,154,1,1
+T00567,课程群二维码过期了，扫不进去,system,system,0.9954765991746997,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T00160,老师好，上次作业少交了一道题会不会扣分，急！,homework,homework,0.9999993420369184,False,,低,auto_answered,课程助教,1,0.55,False,164,1,1
+T00035,救命！作业里要求画流程图 用 Visio 还是 ProcessOn 谢谢！,homework,homework,0.9999999627576706,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00047,老师，作业里的实验结论需要画图吗,homework,homework,0.9999486018517727,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00898,老师，想申请课程免听，直接参加考试可以吗😭,admin,admin,0.9999658963078777,True,涉及高影响申请（免听），需人工确认后答复,中,pending_review,教务办公室,1,0.55,False,95,1,0
+T00223,想问下体育的课后习题第3题，死锁那块没听懂,homework,homework,0.9999796602403305,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00105,想问下论文报告的参考文献格式用 APA 还是 GB/T 7714，在线等,homework,homework,0.9999991156510293,False,,低,auto_answered,课程助教,2,0.55,False,155,1,1
+T00185,老师，论文报告的参考文献格式用 APA 还是 GB/T 7714，谢谢！,homework,homework,0.9999994195367755,False,,低,auto_answered,课程助教,2,0.55,False,155,1,1
+T00329,想问下云盘突然白屏，刷新也没用，在线等,system,system,0.9999113856439088,False,,中,auto_answered,平台技术支持,1,0.55,False,166,1,1
+T01155,这套 PPT 模板挺好看的，哪里下的,other,other,0.9999946760411872,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T01033,交换生学分转换找哪个部门！,admin,admin,0.9999759805576982,False,,低,routed,教务办公室,0,0.0,False,110,1,0
+T00948,想问下想开成绩单 保研要用 盖章找谁😭,admin,admin,0.9999787816723233,False,,低,auto_answered,教务办公室,1,0.55,False,144,1,1
+T00549,作业附件上传到一半就中断，试了三次，麻烦了,system,system,0.9999925865367733,False,,中,auto_answered,平台技术支持,1,0.55,False,154,1,1
+T00878,想问下可以申请作业延期吗，我生病住院了！,admin,admin,0.999674935085081,True,涉及高影响申请（延期），需人工确认后答复,中,pending_review,教务办公室,1,0.55,False,95,1,0
+T00075,想问下老师，小组作业的提交入口在哪,homework,homework,0.9999403781557579,False,,低,auto_answered,课程助教,1,0.55,False,141,1,1
+T00893,想问下学分认定怎么申请，交换课程能转学分吗,admin,admin,0.999999820192601,False,,低,auto_answered,教务办公室,2,0.55,False,145,1,1
+T00669,缓考需要提交什么材料,exam,exam,0.9984713116039085,False,,低,auto_answered,任课教师 / 教务,1,0.8483,False,152,1,1
+T00410,老师，教务系统突然白屏，刷新也没用，谢谢！,system,system,0.999992220573764,False,,中,auto_answered,平台技术支持,1,0.55,False,166,1,1
+T00624,救命！平时分包括哪些部分，谢谢！,exam,exam,0.9999114385501559,False,,低,auto_answered,任课教师 / 教务,2,0.55,False,146,1,1
+T01046,助教你好，老师你用的什么 IDE，看起来很好用，麻烦了,other,other,0.999996056651783,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T01091,这个课的给分高不高，急！,other,other,0.9994624293575421,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00144,救命！作业要求里说的死锁实验，具体要做几组对比，急！,homework,homework,0.9999986468513586,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00785,想问下考式可以申请线上吗,exam,exam,0.998860383627154,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+T00095,老师好，实验报告里的需求分析部分要写多少字,homework,homework,0.9999931155495658,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00258,助教你好，课程设计选题可以选特征选择方向吗😭,homework,homework,0.9999694055757957,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00321,救命！手机端雨课堂闪退，重装也没用,system,system,0.9999279309110815,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T01166,想转专业，有经验的同学吗，在线等,other,other,0.9997951463076347,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00915,辅修报名什么时候开始,admin,admin,0.9997391244549748,False,,低,auto_answered,教务办公室,1,0.55,False,145,1,1
+T00498,打扰一下，校园网连不上，学校VPN一直转圈，急！,system,system,0.9999970779089925,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T01074,助教你好，想找队友一起做项目，有人吗，在线等,other,other,0.9994425071321993,False,,低,auto_closed,助教 / 群管理员,1,0.55,False,74,1,1
+T00696,老师好，补考成绩什么时候公布，谢谢！,exam,exam,0.9999903093549724,False,,低,auto_answered,任课教师 / 教务,2,0.8971,False,154,1,1
+T01029,老师好 老师 我想申请转专业 流程是什么,admin,admin,0.9999563189312254,False,,低,auto_answered,教务办公室,1,0.55,False,145,1,1
+T00784,想问下缓考需要提交什么材料，麻烦了,exam,exam,0.9985671578127764,False,,低,auto_answered,任课教师 / 教务,1,0.683,False,152,1,1
+T00324,打扰一下，选课系统进不去，提示会话已过期！,system,system,0.9999978403106711,False,,中,auto_answered,平台技术支持,1,0.55,False,166,1,1
+T00998,救命！课程冲突需要填哪张表，谢谢！,admin,admin,0.9998581546210152,False,,低,auto_answered,教务办公室,1,0.55,False,152,1,1
+T00760,补考难度和正考一样吗！,exam,exam,0.9999521500611379,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,158,1,1
+T00289,请问编程作业的输入输出格式有没有样例，在线等,homework,homework,0.9999811531168891,False,,低,auto_answered,课程助教,1,0.55,False,155,1,1
+T00739,请问平时分包括哪些部分！,exam,exam,0.9999124028285956,False,,低,auto_answered,任课教师 / 教务,2,0.55,False,146,1,1
+T00364,助教你好，课程回放没有声音，其他视频正常,system,system,0.9999979135674858,False,,中,auto_answered,平台技术支持,1,0.8785,False,161,1,1
+T00242,体育作业要求用Java提交还是手写拍照😭,homework,homework,0.9998845097598538,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00217,实验报告需要附上源代码吗，谢谢！,homework,homework,0.9999870444879745,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00975,助教你好，可以申请作业延期吗，我生病住院了,admin,admin,0.9996725325645353,True,涉及高影响申请（延期），需人工确认后答复,中,pending_review,教务办公室,1,0.55,False,95,1,0
+T01120,救命！最近有什么比赛可以参加,other,other,0.9979729207206657,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T01012,考试违纪申诉流程是什么😭,admin,admin,0.9999764013455825,False,,低,routed,教务办公室,0,0.0,False,110,1,0
+T00904,请问课程冲突需要填哪张表,admin,admin,0.9998091466296324,False,,低,auto_answered,教务办公室,1,0.55,False,152,1,1
+T00698,助教你好，开卷考试可以带打印资料吗！,exam,exam,0.9999969490231637,False,,低,auto_answered,任课教师 / 教务,2,0.5509,False,144,1,1
+T00842,打扰一下，想申请提前毕业，条件是什么，麻烦了,admin,admin,0.9996228549574347,True,涉及高影响申请（提前毕业），需人工确认后答复,中,pending_review,教务办公室,0,0.0,False,97,1,0
+T00192,想问下课程设计选题可以选卷积方向吗，谢谢！,homework,homework,0.9998604479846894,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00356,打扰一下，作业文件下载后打不开，提示文件已损坏！,system,system,0.9999965771018712,False,,中,auto_answered,平台技术支持,2,0.55,False,166,1,1
+T00930,请问教室申请怎么借，社团活动要用,admin,admin,0.990274330693478,False,,低,routed,教务办公室,0,0.0,False,110,1,0
+T00603,请问考试可以提前交卷吗 谢谢！,exam,exam,0.9999016429383809,False,,低,auto_answered,任课教师 / 教务,1,0.4196,False,144,1,1
+T00280,老师好，编程题1提交后显示编译错误，但本地能跑，急！,homework,homework,0.9999901419434747,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00453,请问提交作业按钮点了没反应，页面一直在转圈，在线等,system,system,0.999999397026255,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T00804,老师，补考难度和正考一样吗,exam,exam,0.9999662115520276,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,158,1,1
+T01172,助教你好，这套 PPT 模板挺好看的，哪里下的，麻烦了,other,other,0.9999860801101833,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00772,助教你好，平时分包括哪些部分😭,exam,exam,0.9998138363738245,False,,低,auto_answered,任课教师 / 教务,2,0.55,False,146,1,1
+T00297,老师好，作业截止时间是不是第16周周五晚上，我记不清了，麻烦了,homework,homework,0.99999993940604,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00600,救命！提交作业按钮点了没反应，页面一直在转圈😭,system,system,0.9999995275986017,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T00147,老师，计算机网络作业要求用C++提交还是手写拍照,homework,homework,0.9998525811996413,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00488,打扰一下，作业附件上传到一半就中断，试了三次,system,system,0.9999907277924927,False,,中,auto_answered,平台技术支持,1,0.55,False,154,1,1
+T00704,打扰一下，期中考试范围包括第几章，在线等,exam,exam,0.9999900673404658,False,,低,auto_answered,任课教师 / 教务,1,0.6314,False,148,1,1
+T00302,上次作业少交了一道题会不会扣分 在线等,homework,homework,0.9999991462081205,False,,低,auto_answered,课程助教,1,0.55,False,164,1,1
+T00540,想问下提交的作业显示已提交，但文件列表是空的😭,system,system,0.9999971296868733,False,,中,auto_answered,平台技术支持,1,0.703,False,151,1,1
+T00100,打扰一下，老师，这次作业的难度是不是比上次高很多，在线等,homework,homework,0.9999999891064562,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00458,请问课件下载下来是乱码，PDF 打不开,system,system,0.9999951275734318,False,,中,auto_answered,平台技术支持,2,0.6192,False,150,1,1
+T00094,助教你好，小组作业的分工表在哪里下载,homework,homework,0.999990539859451,False,,低,auto_answered,课程助教,1,0.55,False,141,1,1
+T00962,请问补考/重修流程是什么，要交费吗，麻烦了,admin,admin,0.9999902950082021,False,,低,routed,教务办公室,0,0.0,False,110,1,0
+T00745,打扰一下，考场安排在哪个教学楼，在线等,exam,exam,0.9999708425768399,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+T01114,群里有二手教材卖吗，麻烦了,other,other,0.999824191811844,False,,低,auto_closed,助教 / 群管理员,2,0.55,False,74,1,1
+T00163,老师，这次作业的难度是不是比上次高很多，谢谢！,homework,homework,0.9999999971064568,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00238,想问下老师，这次作业的难度是不是比上次高很多😭,homework,homework,0.9999999922449945,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00222,课程设计选题可以选死锁方向吗，谢谢！,homework,homework,0.9999430706344045,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00891,助教你好，学籍信息有误，怎么修改，急！,admin,admin,0.9999682439882808,False,,低,routed,教务办公室,0,0.0,False,110,1,0
+T00357,请问上传做业附件失败 提示文件超过大小限制,system,system,0.9999973464399226,False,,中,auto_answered,平台技术支持,1,0.6445,False,154,1,1
+T01146,这门课作业多不多，想摸个底，急！,other,other,0.9999832462058293,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00729,助教你好，缓考需要提交什么材料，急！,exam,exam,0.9978414545312759,False,,低,auto_answered,任课教师 / 教务,1,0.683,False,152,1,1
+T01020,想问下想换到另一个班，还有名额吗，麻烦了,admin,admin,0.999928941285053,False,,低,routed,教务办公室,0,0.0,False,110,1,0
+T00004,救命！这道卷积的题我推导不出来，能给个示例吗，急！,homework,homework,0.9999967301703547,False,,低,auto_answered,课程助教,1,0.55,False,139,1,1
+T00065,想问下小组作业的分工表在哪里下载，急！,homework,homework,0.9999928219286272,False,,低,auto_answered,课程助教,1,0.55,False,141,1,1
+T00115,想问下作业截止时间是不是第15周周五晚上 我记不清了！,homework,homework,0.9999999643838187,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00457,手机 APP 收不到课程通知 权限都开了😭,system,system,0.9999972845079902,False,,中,auto_answered,平台技术支持,1,0.55,False,156,1,1
+T00481,请问直播课听不到老师声音，但我这边麦克风正常😭,system,system,0.9999998688213992,False,,中,auto_answered,平台技术支持,1,0.55,False,161,1,1
+T00611,打扰一下，期中考试成绩在哪里查,exam,exam,0.9995790294475084,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+T00285,老师，作业提交成 PDF 还是 docx，命名格式有要求吗，在线等,homework,homework,0.999999781156883,False,,低,auto_answered,课程助教,1,0.55,False,155,1,1
+T01057,想问下老师 你平时用什么笔记软件 麻烦了,other,other,0.9999093061888101,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00940,老师，想申请提前毕业，条件是什么，急！,admin,admin,0.9998590632839127,True,涉及高影响申请（提前毕业），需人工确认后答复,中,pending_review,教务办公室,0,0.0,False,97,1,0
+T00382,想问下提交做业按钮点了没反应，页面一直在转圈，急！,system,system,0.9999979439208281,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T00817,计算机网络的考试有编程题吗，谢谢！,exam,exam,0.9994317035076893,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+T01122,打扰一下，今天食堂排队好长，麻烦了,other,other,0.9999579345877614,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00201,想问下第2题的实验数据在哪里下载，谢谢！,homework,homework,0.9984614587735255,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00723,想问下老师，期末考试的答题卡要涂学号吗，在线等,exam,exam,0.9999969626659975,False,,低,auto_answered,任课教师 / 教务,1,0.4162,False,145,1,1
+T01093,想转专业，有经验的同学吗😭,other,other,0.9998566252485876,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00180,老师好，实验报告需要附上源代码吗,homework,homework,0.9999821574854801,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00010,实验报告需要附上源代码吗,homework,homework,0.999990007750455,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00460,选课系统进不去，提示会话已过期，在线等,system,system,0.9999984073010246,False,,中,auto_answered,平台技术支持,1,0.55,False,166,1,1
+T00360,老师好，手机 APP 收不到课程通知，权限都开了！,system,system,0.9999969173819401,False,,中,auto_answered,平台技术支持,1,0.55,False,156,1,1
+T00795,救命！数据库原理的考试重点能不能划一下,exam,exam,0.9999588775848774,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,148,1,1
+T00787,考试可以带计算器吗，麻烦了,exam,exam,0.9999942468825018,False,,低,auto_answered,任课教师 / 教务,1,0.7599,False,144,1,1
+T00016,老师好，作业截止时间是不是第8周周五晚上，我记不清了，急！,homework,homework,0.9999999598302062,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T01109,推荐一下上海周末能去的地方，在线等,other,other,0.999825444276923,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00542,救命！校园网连不上，教务系统一直转圈，急！,system,system,0.9999932155283419,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T00814,缓考需要提交什么材料，谢谢！,exam,exam,0.9988118598334714,False,,低,auto_answered,任课教师 / 教务,1,0.77,False,152,1,1
+T00768,老师 期末考试是闭卷还是开卷,exam,exam,0.999997534651795,False,,低,auto_answered,任课教师 / 教务,2,0.8144,False,145,1,1
+T00944,老师 我想申请转专业 流程是什么 谢谢！,admin,admin,0.999977309565724,False,,低,auto_answered,教务办公室,1,0.55,False,145,1,1
+T00438,想问下课件下载下来是乱码，PDF 打不开,system,system,0.9999936526958283,False,,中,auto_answered,平台技术支持,2,0.6192,False,150,1,1
+T00215,第7题的实验数据在哪里下载，麻烦了,homework,homework,0.9992681333801886,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00218,作业的代码需要写注释吗，急！,homework,homework,0.9999989709013486,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00801,救命！老师，期末考试的答题卡要涂学号吗,exam,exam,0.999998989546852,False,,低,auto_answered,任课教师 / 教务,1,0.394,False,145,1,1
+T00275,老丝，实验报告里的需求分析部分要写多少字，麻烦了,homework,homework,0.9999900096066725,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T01115,图书馆座位怎么预约 麻烦了,other,other,0.9997377398749654,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00928,想申请课程替代，之前修过的课能抵吗,admin,admin,0.9994642597575952,False,,低,routed,教务办公室,0,0.0,False,110,1,0
+T00474,学习通的讨论区发帖一直失败，麻烦了,system,system,0.9999985946585993,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T00246,体育的课后习题第8题，卷积那块没听懂，在线等,homework,homework,0.9999594561688768,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00947,打扰一下，申请休学需要什么材料，麻烦了,admin,admin,0.9992793562831616,False,,低,routed,教务办公室,0,0.0,False,110,1,0
+T00912,助教你好，课程冲突需要填哪张表，麻烦了,admin,admin,0.9996947198404398,False,,低,auto_answered,教务办公室,1,0.55,False,152,1,1
+T01037,小组作业队友不干活 能不能申请换组 急！,admin,admin,0.9996900054550802,True,涉及高影响申请（换组），需人工确认后答复,中,pending_review,教务办公室,1,0.55,False,95,1,0
+T00450,助教你好，课程网站的视频卡住不动，换了浏览器也不行，谢谢！,system,system,0.9999964684502176,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T00971,老师，想申请创新创业学分，需要什么证明，麻烦了,admin,admin,0.9999997922331334,False,,低,routed,教务办公室,0,0.0,False,110,1,0
+T01063,想问下这套 PPT 模板挺好看的，哪里下的,other,other,0.9999922768433245,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00693,老丝，期末考式题型有哪些，有没有选择题，麻烦了,exam,exam,0.9988550980832103,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+T00414,打扰一下，课件下载下来是乱码，PDF 打不开，谢谢！,system,system,0.9999893335917567,False,,中,auto_answered,平台技术支持,2,0.55,False,166,1,1
+T00598,老师好，校园网连不上，云盘一直转圈，麻烦了,system,system,0.9999778887469852,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+T01034,需要开在读证明，去哪里办，多久能拿到，谢谢！,admin,admin,0.9999174024925318,False,,低,auto_answered,教务办公室,1,0.55,False,144,1,1
+T00957,助教你好，学分认定怎么申请，交换课程能转学分吗，麻烦了,admin,admin,0.9999997105077788,False,,低,auto_answered,教务办公室,2,0.55,False,145,1,1
+T01173,老师好，想转专业，有经验的同学吗，急！,other,other,0.999750768501011,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00840,考场安排在哪个教学楼,exam,exam,0.9999901016511258,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+T01189,想问下老师辛苦了，教师节快乐,other,other,0.9998453449747844,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+T00639,老师，查重报告需要在考试前提交吗，麻烦了,exam,exam,0.9997244445591411,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+T00204,救命！作业里的参考文献需要画图吗,homework,homework,0.9999945919265663,False,,低,auto_answered,课程助教,1,0.55,False,139,1,1
+T00323,老师，雨课堂突然白屏，刷新也没用，谢谢！,system,system,0.9999647021082252,False,,中,auto_answered,平台技术支持,1,0.55,False,166,1,1
+T00101,想问下老师，作业迟交一天扣多少分，谢谢！,homework,homework,0.9999951592611676,False,,低,auto_answered,课程助教,1,0.55,False,164,1,1
+T00638,概率论的考试重点能不能划一下😭,exam,exam,0.9999850213582282,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,148,1,1
+T00249,编程作业的输入输出格式有没有样例，急！,homework,homework,0.9999902076987982,False,,低,auto_answered,课程助教,1,0.55,False,155,1,1
+T00699,老师好 开卷考试可以带打印资料吗 在线等,exam,exam,0.9999949740269297,False,,低,auto_answered,任课教师 / 教务,2,0.5968,False,144,1,1
+T00138,助教你好，老师，这次作业的难度是不是比上次高很多，麻烦了,homework,homework,0.9999999858450792,False,,低,routed,课程助教,0,0.0,False,109,1,0
+T00330,校园网连不上，学校VPN一直转圈，急！,system,system,0.9999989101901404,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+H0120,作业交错了怎么办，谢谢,homework,exam,0.4809453956362249,True,置信度 0.48 低于阈值 0.84,低,pending_review,任课教师 / 教务,0,0.0,False,97,0,0
+H0170,老师，补考成绩什么时候公布？,exam,exam,0.9999966649922574,False,,低,auto_answered,任课教师 / 教务,2,0.8971,False,154,1,1
+H0178,助教，老师，我作业没写完能不能延期？,admin,admin,0.9913209822708422,True,涉及高影响申请（延期），需人工确认后答复,中,pending_review,教务办公室,1,0.55,False,95,1,0
+H0127,请问期末考什么，谢谢,exam,exam,0.9627627637079346,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+H0161,作业评分标准是什么？,homework,homework,0.994826999292775,False,,低,auto_answered,课程助教,1,0.3991,False,155,1,1
+H0072,ddl 是几号,homework,homework,0.48114439032022455,True,置信度 0.48 低于阈值 0.84,低,pending_review,课程助教,0,0.0,False,92,1,0
+H0101,想问下，大家作业写完了吗，谢谢,other,other,0.6409400473242974,True,置信度 0.64 低于阈值 0.84,低,pending_review,助教 / 群管理员,0,0.0,False,74,1,0
+H0193,老师，大家作业写完了吗,other,other,0.6731695814696341,True,置信度 0.67 低于阈值 0.84,低,pending_review,助教 / 群管理员,0,0.0,False,74,1,0
+H0071,作业可以用中文写吗,homework,homework,0.9837284458576321,False,,低,auto_answered,课程助教,1,0.5624,False,147,1,1
+H0034,请问老师，我作业没写完能不能延期？,admin,admin,0.9909156064776451,True,涉及高影响申请（延期），需人工确认后答复,中,pending_review,教务办公室,1,0.55,False,95,1,0
+H0184,助教，重修怎么报名，怎么办,admin,admin,0.7323241780541522,True,置信度 0.73 低于阈值 0.84,低,pending_review,教务办公室,1,0.478,False,93,1,0
+H0025,助教，期末考什么,exam,exam,0.9305052410623895,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+H0097,请问老师这个怎么弄？,other,other,0.7613220910627395,True,置信度 0.76 低于阈值 0.84,低,pending_review,助教 / 群管理员,0,0.0,False,74,1,0
+H0021,作业是周五交吗？,homework,homework,0.9546128135431572,False,,低,routed,课程助教,0,0.0,False,109,1,0
+H0144,助教，这门课可以免听吗，怎么办,admin,other,0.5768337687951538,True,置信度 0.58 低于阈值 0.84；涉及高影响申请（免听），需人工确认后答复,中,pending_review,助教 / 群管理员,0,0.0,False,74,0,0
+H0038,请问课程和考试冲突了怎么办，怎么办,admin,exam,0.8135410152251854,True,置信度 0.81 低于阈值 0.84,低,pending_review,任课教师 / 教务,0,0.0,False,97,0,0
+H0042,老师，保研成绩单怎么开,admin,admin,0.9937612307254646,False,,低,auto_answered,教务办公室,1,0.6566,False,144,1,1
+H0002,老师，作业提交不了，怎么办,system,system,0.7085832720035385,True,置信度 0.71 低于阈值 0.84,中,pending_review,平台技术支持,0,0.0,False,94,1,0
+H0164,老师，小组作业怎么分组,homework,homework,0.9019890736076163,False,,低,auto_answered,课程助教,1,0.9315,False,141,1,1
+H0117,请问老师这道题不会，怎么办,homework,homework,0.950514675415357,False,,低,routed,课程助教,0,0.0,False,109,1,0
+H0044,请问论文查重没过怎么办,admin,exam,0.5763965198847119,True,置信度 0.58 低于阈值 0.84,低,pending_review,任课教师 / 教务,0,0.0,False,97,0,0
+H0089,请问老师我想换组，急,admin,admin,0.973784945795205,True,涉及高影响申请（换组），需人工确认后答复,中,pending_review,教务办公室,1,0.55,False,95,1,0
+H0068,想问下，小组作业怎么分组，怎么办,homework,homework,0.7602359456251306,True,置信度 0.76 低于阈值 0.84,低,pending_review,课程助教,1,0.8304,False,92,1,0
+H0175,想问下，机考还是笔试，怎么办,exam,exam,0.9669741359392879,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+H0035,助教，作业迟交了还能补交吗,admin,admin,0.8865544425327276,False,,低,auto_answered,教务办公室,1,0.55,False,143,1,1
+H0030,想问下，机考还是笔试？,exam,exam,0.9697307582345873,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+H0083,助教，缓考算挂科吗，怎么办,exam,exam,0.7684874376698537,True,置信度 0.77 低于阈值 0.84,低,pending_review,任课教师 / 教务,1,0.55,False,97,1,0
+H0047,求推荐好用的键盘？,other,other,0.9890982938309018,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+H0018,助教，作业交错了怎么办？,homework,exam,0.48363952277506683,True,置信度 0.48 低于阈值 0.84,低,pending_review,任课教师 / 教务,0,0.0,False,97,0,0
+H0006,账号被锁了，急,system,system,0.8753129178901522,False,,中,auto_answered,平台技术支持,1,0.55,False,156,1,1
+H0139,老师我想换组，急,admin,admin,0.9862293092645871,True,涉及高影响申请（换组），需人工确认后答复,中,pending_review,教务办公室,1,0.55,False,95,1,0
+H0100,请问今天教室好冷，急,other,other,0.7794023083170268,True,置信度 0.78 低于阈值 0.84,低,pending_review,助教 / 群管理员,0,0.0,False,74,1,0
+H0029,请问考试能带纸吗，急,exam,exam,0.9758393426334424,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,144,1,1
+H0107,助教，附件传不上去,system,system,0.9381499217887094,False,,中,auto_answered,平台技术支持,1,0.55,False,154,1,1
+H0011,作业在哪提交,system,homework,0.6850175251401075,True,置信度 0.69 低于阈值 0.84,低,pending_review,课程助教,0,0.0,False,92,0,0
+H0110,卡死了？,system,system,0.8684181718889925,True,输入过短，语义不完整,中,pending_review,平台技术支持,0,0.0,False,86,1,0
+H0128,想问下，分数怎么算？,exam,exam,0.8943504611298554,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,146,1,1
+H0093,老师，转专业需要什么条件,admin,admin,0.9957929785618185,False,,低,auto_answered,教务办公室,1,0.55,False,145,1,1
+H0028,想问下，有没有题库，谢谢,exam,other,0.4153277160846386,True,置信度 0.42 低于阈值 0.84,低,pending_review,助教 / 群管理员,0,0.0,False,74,0,0
+H0103,请问这个课给分高吗，急,other,other,0.9948900235938651,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+H0162,作业答案在哪？,homework,homework,0.9488023267599568,False,,低,auto_answered,课程助教,1,0.55,False,139,1,1
+H0070,想问下，作业交错了怎么办，急,homework,exam,0.4435324110145681,True,置信度 0.44 低于阈值 0.84,低,pending_review,任课教师 / 教务,0,0.0,False,97,0,0
+H0085,想问下，补考安排在哪看,exam,exam,0.9918331479641511,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,158,1,1
+H0012,提交的作业老师收到了吗，怎么办,homework,homework,0.8530016049780726,False,,低,routed,课程助教,0,0.0,False,109,1,0
+H0063,助教，作业在哪提交？,system,homework,0.40796185021676157,True,置信度 0.41 低于阈值 0.84,低,pending_review,课程助教,0,0.0,False,92,0,0
+H0177,助教，补考在哪报名？,exam,exam,0.9579183225153174,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,158,1,1
+H0003,请问作业提交不了，是不是系统坏了,system,system,0.9428839336417487,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+H0016,想问下，小组作业怎么分组，急,homework,homework,0.8883138883852062,False,,低,auto_answered,课程助教,1,0.8576,False,141,1,1
+H0022,考试时间能改吗？,admin,admin,0.7343644635305638,True,置信度 0.73 低于阈值 0.84,低,pending_review,教务办公室,0,0.0,False,93,1,0
+H0024,补考成绩什么时候公布，急,exam,exam,0.9999938399573,False,,低,auto_answered,任课教师 / 教务,2,0.9461,False,154,1,1
+H0176,想问下，缓考算挂科吗,exam,exam,0.7811985747794353,True,置信度 0.78 低于阈值 0.84,低,pending_review,任课教师 / 教务,1,0.55,False,97,1,0
+H0154,账号被锁了,system,system,0.8641545341381179,True,输入过短，语义不完整,中,pending_review,平台技术支持,1,0.55,False,86,1,0
+H0001,作业打不开，谢谢,system,system,0.9162593793333995,False,,中,auto_answered,平台技术支持,1,0.55,False,166,1,1
+H0130,助教，有没有题库,exam,other,0.47214941702197305,True,置信度 0.47 低于阈值 0.84,低,pending_review,助教 / 群管理员,0,0.0,False,74,0,0
+H0147,老师，您周末加班吗？,other,other,0.9033638063176526,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+H0077,请问期末考什么？,exam,exam,0.9842292858819667,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+H0158,请问PPT 在哪下载,system,system,0.6248052873909654,True,置信度 0.62 低于阈值 0.84,中,pending_review,平台技术支持,1,0.55,False,94,1,0
+H0142,请问转专业需要什么条件,admin,admin,0.9956862991687591,False,,低,auto_answered,教务办公室,1,0.55,False,145,1,1
+H0043,老师，这门课可以免听吗，急,admin,other,0.7731644804998427,True,置信度 0.77 低于阈值 0.84；涉及高影响申请（免听），需人工确认后答复,中,pending_review,助教 / 群管理员,0,0.0,False,74,0,0
+H0145,想问下，求推荐好用的键盘，急,other,other,0.9725252237961859,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+H0104,想问下，作业打不开，急,system,system,0.9287792993373978,False,,中,auto_answered,平台技术支持,1,0.55,False,166,1,1
+H0014,老师，作业答案在哪，急,homework,homework,0.9530602981145616,False,,低,auto_answered,课程助教,1,0.55,False,139,1,1
+H0138,老师，老师，我病了，谢谢,admin,admin,0.8132987246255438,True,置信度 0.81 低于阈值 0.84,低,pending_review,教务办公室,0,0.0,False,93,1,0
+H0156,老师，卡死了,system,system,0.8457128011548111,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+H0064,老师，提交的作业老师收到了吗,homework,homework,0.9165071556644522,False,,低,routed,课程助教,0,0.0,False,109,1,0
+H0129,助教，考试难不难，谢谢,exam,exam,0.9878304703846459,False,,低,routed,任课教师 / 教务,0,0.0,False,114,1,0
+H0109,系统崩了,system,system,0.9098307549994163,True,输入过短，语义不完整,中,pending_review,平台技术支持,0,0.0,False,86,1,0
+H0045,助教，老师这个怎么弄，怎么办,other,other,0.7852071674410686,True,置信度 0.79 低于阈值 0.84,低,pending_review,助教 / 群管理员,0,0.0,False,74,1,0
+H0020,ddl 是几号，急,homework,homework,0.3298606918942194,True,置信度 0.33 低于阈值 0.84,低,pending_review,课程助教,0,0.0,False,92,1,0
+H0075,助教，成绩什么时候出,exam,exam,0.9989917920104033,False,,低,auto_answered,任课教师 / 教务,1,0.6264,False,154,1,1
+H0053,想问下，作业打不开，谢谢,system,system,0.857151900400456,False,,中,auto_answered,平台技术支持,1,0.55,False,166,1,1
+H0108,老师，账号被锁了，急,system,system,0.8460006267328107,False,,中,auto_answered,平台技术支持,1,0.55,False,156,1,1
+H0026,助教，分数怎么算,exam,exam,0.9541052509871657,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,146,1,1
+H0157,请问视频看不了？,system,system,0.9785847784848923,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+H0032,请问补考在哪报名,exam,exam,0.9443618520952872,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,158,1,1
+H0182,课程和考试冲突了怎么办,admin,exam,0.8698077501357426,False,,低,routed,任课教师 / 教务,0,0.0,False,114,0,0
+H0168,助教，作业是周五交吗？,homework,homework,0.8205869407798132,True,置信度 0.82 低于阈值 0.84,低,pending_review,课程助教,0,0.0,False,92,1,0
+H0192,今天教室好冷,other,other,0.9385664644672053,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+H0195,想问下，这个课给分高吗，急,other,other,0.9958701493165425,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+H0061,想问下，视频看不了，谢谢,system,system,0.9498491185920244,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+H0096,论文查重没过怎么办，怎么办,admin,exam,0.507022499716031,True,置信度 0.51 低于阈值 0.84,低,pending_review,任课教师 / 教务,0,0.0,False,97,0,0
+H0065,老师，作业评分标准是什么，谢谢,homework,homework,0.9913795092981839,False,,低,auto_answered,课程助教,1,0.3521,False,155,1,1
+H0141,请问重修怎么报名，急,admin,admin,0.7744495794709592,True,置信度 0.77 低于阈值 0.84,低,pending_review,教务办公室,1,0.5122,False,93,1,0
+H0140,请问课程和考试冲突了怎么办？,admin,exam,0.8414238017068385,False,,低,routed,任课教师 / 教务,0,0.0,False,114,0,0
+H0152,附件传不上去,system,system,0.9665204713115079,False,,中,auto_answered,平台技术支持,1,0.55,False,154,1,1
+H0031,老师，缓考算挂科吗,exam,exam,0.8123546797204974,True,置信度 0.81 低于阈值 0.84,低,pending_review,任课教师 / 教务,1,0.55,False,97,1,0
+H0091,助教，成绩不对？,admin,admin,0.5479247929245362,True,置信度 0.55 低于阈值 0.84,低,pending_review,教务办公室,1,0.55,False,93,1,0
+H0094,保研成绩单怎么开，谢谢,admin,admin,0.9951484213425721,False,,低,auto_answered,教务办公室,1,0.5856,False,144,1,1
+H0049,今天教室好冷？,other,other,0.9385664644672053,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+H0166,作业交错了怎么办,homework,exam,0.5075071736150275,True,置信度 0.51 低于阈值 0.84,低,pending_review,任课教师 / 教务,0,0.0,False,97,0,0
+H0007,想问下，系统崩了，急,system,system,0.913700000392054,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+H0078,老师，分数怎么算，怎么办,exam,exam,0.8907228632197831,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,146,1,1
+H0123,想问下，作业是周五交吗，怎么办,homework,homework,0.6455454495509824,True,置信度 0.65 低于阈值 0.84,低,pending_review,课程助教,0,0.0,False,92,1,0
+H0056,老师，附件传不上去，怎么办,system,system,0.7106026237582591,True,置信度 0.71 低于阈值 0.84,中,pending_review,平台技术支持,1,0.55,False,94,1,0
+H0135,助教，补考安排在哪看？,exam,exam,0.9945044643963439,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,158,1,1
+H0113,作业在哪提交，谢谢,system,homework,0.5291025387498507,True,置信度 0.53 低于阈值 0.84,低,pending_review,课程助教,0,0.0,False,92,0,0
+H0019,想问下，作业可以用中文写吗,homework,homework,0.9792744698583727,False,,低,auto_answered,课程助教,1,0.4895,False,147,1,1
+H0194,助教，老师，您周末加班吗，急,other,other,0.8328927013231893,True,置信度 0.83 低于阈值 0.84,低,pending_review,助教 / 群管理员,0,0.0,False,74,1,0
+H0180,想问下，老师，我病了,admin,admin,0.8303126569477919,True,置信度 0.83 低于阈值 0.84,低,pending_review,教务办公室,0,0.0,False,93,1,0
+H0009,助教，视频看不了，怎么办,system,system,0.9061789886210153,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+H0087,想问下，作业迟交了还能补交吗,admin,admin,0.8729268131554209,False,,低,auto_answered,教务办公室,1,0.55,False,143,1,1
+H0149,助教，作业打不开，怎么办,system,system,0.778703669436456,True,置信度 0.78 低于阈值 0.84,中,pending_review,平台技术支持,1,0.55,False,94,1,0
+H0102,想问下，老师，您周末加班吗，怎么办,other,other,0.769457800117605,True,置信度 0.77 低于阈值 0.84,低,pending_review,助教 / 群管理员,0,0.0,False,74,1,0
+H0106,想问下，作业提交不了，是不是系统坏了，急,system,system,0.9768682326652439,False,,中,routed,平台技术支持,0,0.0,False,111,1,0
+H0051,老师，您周末加班吗，急,other,other,0.8511749888277375,False,,低,auto_closed,助教 / 群管理员,0,0.0,False,74,1,1
+H0112,助教，PPT 在哪下载，急,system,system,0.616563368949741,True,置信度 0.62 低于阈值 0.84,中,pending_review,平台技术支持,1,0.55,False,94,1,0
+H0080,老师，有没有题库,exam,other,0.5017473434871893,True,置信度 0.50 低于阈值 0.84,低,pending_review,助教 / 群管理员,0,0.0,False,74,0,0
+H0081,考试能带纸吗？,exam,exam,0.9902808200564224,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,144,1,1
+H0118,想问下，小组作业怎么分组，谢谢,homework,homework,0.8728757544377045,False,,低,auto_answered,课程助教,1,0.8576,False,141,1,1
+H0122,请问ddl 是几号,homework,system,0.23043942035041262,True,置信度 0.23 低于阈值 0.84；前两类概率差距仅 0.01，存在类别歧义,中,pending_review,平台技术支持,0,0.0,False,115,0,0
+H0054,想问下，作业提交不了,system,system,0.8107277946992288,True,置信度 0.81 低于阈值 0.84,中,pending_review,平台技术支持,0,0.0,False,94,1,0
+H0172,助教，分数怎么算，怎么办,exam,exam,0.8855597045854002,False,,低,auto_answered,任课教师 / 教务,1,0.55,False,146,1,1
+H0163,助教，老师这道题不会？,homework,homework,0.9816338938180659,False,,低,routed,课程助教,0,0.0,False,109,1,0
+H0040,想问下，重修怎么报名，急,admin,admin,0.730744367676513,True,置信度 0.73 低于阈值 0.84,低,pending_review,教务办公室,1,0.5122,False,93,1,0
+H0095,想问下，这门课可以免听吗，谢谢,admin,other,0.7748766048624495,True,置信度 0.77 低于阈值 0.84；涉及高影响申请（免听），需人工确认后答复,中,pending_review,助教 / 群管理员,0,0.0,False,74,0,0
+H0181,想问下，老师我想换组,admin,admin,0.9721164425862631,True,涉及高影响申请（换组），需人工确认后答复,中,pending_review,教务办公室,1,0.55,False,95,1,0
+H0098,请问有人出二手鼠标吗？,other,other,0.9997739489646691,False,,低,auto_closed,助教 / 群管理员,1,0.55,False,74,1,1

@@ -1,0 +1,27 @@
+{
+  "n_test": 267,
+  "classification": {
+    "accuracy": 0.9288389513108615,
+    "macro_f1": 0.9275393734821467
+  },
+  "agent_policy": {
+    "auto_answer_rate": 0.4868913857677903,
+    "substantive_answer_rate": 0.3782771535580524,
+    "routed_rate": 0.29213483146067415,
+    "review_rate": 0.2209737827715356,
+    "auto_answer_accuracy": 1.0,
+    "escaped_errors": 0,
+    "escaped_error_rate": 0.0,
+    "total_errors": 19,
+    "error_capture_rate": 0.8947368421052632
+  },
+  "kb": {
+    "hit_rate": 0.47191011235955055,
+    "mean_top_score": 0.5822063492063491
+  },
+  "latency": {
+    "mean_ms": 5.493416479694542,
+    "p95_ms": 5.47010003356263
+  },
+  "degraded_count": 0
+}

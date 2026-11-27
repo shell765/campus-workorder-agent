@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-11-27T08:36:21",
+  "random_state": 42,
+  "best_model": "nb",
+  "confidence_threshold": 0.84,
+  "data": {
+    "train": 900,
+    "dev": 228,
+    "test": 267,
+    "n_hard": 195,
+    "n_hard_dev": 78,
+    "n_hard_test": 117,
+    "n_base_test": 150
+  },
+  "threshold_policy": {
+    "method": "在开发集上最小化运行成本（错误自动答复*4 + 人工复核*1）",
+    "best": {
+      "threshold": 0.84,
+      "auto_coverage": 0.8640350877192983,
+      "auto_error_rate": 0.05583756345177665,
+      "cost_per_100": 32.89473684210526
+    }
+  },
+  "overall": {
+    "accuracy": 0.9288389513108615,
+    "macro_f1": 0.9275393734821469,
+    "weighted_f1": 0.9292279517963113
+  },
+  "per_class": {
+    "homework": {
+      "precision": 0.9516129032258065,
+      "recall": 0.921875,
+      "f1-score": 0.9365079365079365,
+      "support": 64.0
+    },
+    "system": {
+      "precision": 0.9830508474576272,
+      "recall": 0.9508196721311475,
+      "f1-score": 0.9666666666666667,
+      "support": 61.0
+    },
+    "exam": {
+      "precision": 0.8524590163934426,
+      "recall": 0.9454545454545454,
+      "f1-score": 0.896551724137931,
+      "support": 55.0
+    },
+    "admin": {
+      "precision": 1.0,
+      "recall": 0.8431372549019608,
+      "f1-score": 0.9148936170212766,
+      "support": 51.0
+    },
+    "other": {
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1-score": 0.9230769230769231,
+      "support": 36.0
+    }
+  },
+  "macro_f1_no_other": 0.9286549860834526,
+  "subset": {
+    "base_test": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0
+    },
+    "hard_test": {
+      "accuracy": 0.8376068376068376,
+      "macro_f1": 0.8384176647151476,
+      "weighted_f1": 0.8387637229284827
+    },
+    "n_base": 150,
+    "n_hard": 117
+  },
+  "auto_policy": {
+    "coverage": 0.8539325842696629,
+    "error_rate": 0.017543859649122806,
+    "review_rate": 0.1460674157303371
+  },
+  "rule_baseline": {
+    "accuracy": 0.8277153558052435,
+    "macro_f1": 0.8173980105045103,
+    "weighted_f1": 0.8257232757651635,
+    "auto_error_rate(全部自动)": 0.8277153558052435
+  },
+  "dev_scores": {
+    "nb": 0.9009747506165542,
+    "svm": 0.8870333820623795,
+    "lr": 0.8913300665986504
+  },
+  "label_cn": {
+    "homework": "作业疑问",
+    "system": "系统故障",
+    "exam": "考试咨询",
+    "admin": "行政申请",
+    "other": "无关/灌水"
+  }
+}

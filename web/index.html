@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>课程工单智能分类 Agent</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">工</div>
+      <div class="brand-text">
+        <h1>课程工单智能分类 Agent</h1>
+        <p>机器学习分类 · 置信度复核 · 知识库检索 · 人工协作</p>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <span class="pill"><i class="dot"></i> 模型已加载 · TF-IDF + ComplementNB</span>
+      <button class="ghost-btn" id="reviewBtn">
+        复核队列 <span class="count" id="reviewCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="card input-card">
+      <div class="card-head">
+        <span class="step-no">01</span>
+        <div>
+          <h2>学生原始消息</h2>
+          <p>支持口语、错别字、无标点，可直接粘贴聊天记录中的一句话。</p>
+        </div>
+      </div>
+
+      <div class="examples" id="examples"></div>
+
+      <textarea id="input" maxlength="500"
+        placeholder="例如：学习通打不开，一直显示 502，作业还没提交…"></textarea>
+      <div class="input-meta">
+        <span id="charCount">0 / 500</span>
+        <span class="muted">演示数据均为合成，不含真实学生信息</span>
+      </div>
+
+      <button class="primary-btn" id="submitBtn">
+        <span>提交工单</span><span class="arrow">→</span>
+      </button>
+
+      <div class="flow-hint">
+        <div class="flow-item"><b>1</b> 输入校验</div>
+        <div class="flow-line"></div>
+        <div class="flow-item"><b>2</b> ML 分类</div>
+        <div class="flow-line"></div>
+        <div class="flow-item"><b>3</b> 复核决策</div>
+        <div class="flow-line"></div>
+        <div class="flow-item"><b>4</b> 检索 / 路由</div>
+      </div>
+
+      <div class="notice">
+        <span class="notice-title">安全边界</span>
+        调课、延期、成绩复核等高影响申请会强制转入人工复核；系统只登记与转交，不代替老师做决定。
+      </div>
+    </section>
+
+    <section class="right-col">
+      <div class="card result-card">
+        <div class="card-head result-head">
+          <span class="step-no">02</span>
+          <div>
+            <h2>处理结果</h2>
+            <p id="resultSub">提交一条消息后，展示分类、路由与答复依据</p>
+          </div>
+          <span class="badge hidden" id="statusBadge">等待输入</span>
+        </div>
+
+        <div class="empty-state" id="emptyState">
+          <div class="empty-icon">⌁</div>
+          <p>还没有处理记录</p>
+          <span>在左侧输入一条课程群里的真实问题，点击“提交工单”。</span>
+        </div>
+
+        <div class="result-body hidden" id="resultBody">
+          <div class="meta-grid">
+            <div class="meta-cell">
+              <span class="meta-label">类别</span>
+              <strong id="mLabel">—</strong>
+            </div>
+            <div class="meta-cell">
+              <span class="meta-label">置信度</span>
+              <strong id="mConf">—</strong>
+            </div>
+            <div class="meta-cell">
+              <span class="meta-label">责任方</span>
+              <strong id="mRoute">—</strong>
+            </div>
+            <div class="meta-cell">
+              <span class="meta-label">优先级</span>
+              <strong id="mPriority">—</strong>
+            </div>
+            <div class="meta-cell">
+              <span class="meta-label">工单号</span>
+              <strong id="mTicket">—</strong>
+            </div>
+            <div class="meta-cell">
+              <span class="meta-label">处理耗时</span>
+              <strong id="mLatency">—</strong>
+            </div>
+          </div>
+
+          <div class="confidence-wrap">
+            <div class="confidence-top">
+              <span>分类置信度</span>
+              <span id="confText">0%</span>
+            </div>
+            <div class="confidence-track"><div class="confidence-fill" id="confFill"></div></div>
+          </div>
+
+          <div class="reply-box">
+            <div class="reply-title">答复内容 <span class="muted">（仅使用知识库中有出处的信息）</span></div>
+            <pre id="replyText"></pre>
+          </div>
+
+          <div class="sources" id="sourcesWrap">
+            <span class="sources-label">依据</span>
+            <div id="sourcesList" class="source-list"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-grid">
+        <div class="card trace-card">
+          <div class="card-head compact">
+            <span class="step-no">03</span>
+            <div><h2>Agent 处理轨迹</h2></div>
+            <span class="elapsed" id="totalMs">—</span>
+          </div>
+          <div class="trace-list" id="traceList">
+            <div class="trace-empty">提交后展示每一步的状态与耗时</div>
+          </div>
+        </div>
+
+        <div class="card json-card">
+          <div class="card-head compact">
+            <span class="step-no">04</span>
+            <div><h2>结构化输出</h2></div>
+          </div>
+          <pre class="json-view" id="jsonView">// 可直接写入工单系统 / 复核队列</pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="statusbar">
+    <div class="statline" id="statLine">工单总数 0 ｜ 自动答复 0 ｜ 自动归档 0 ｜ 转人工 0 ｜ 待复核 0</div>
+    <div class="statline muted">测试集 267 条 · Macro-F1 0.928 · 自动答复错误率 0% · 阈值 0.84</div>
+  </footer>
+
+  <aside class="drawer" id="drawer">
+    <div class="drawer-head">
+      <div>
+        <h2>人工复核队列</h2>
+        <p>低置信度、类别歧义或高影响申请</p>
+      </div>
+      <button class="icon-btn" id="closeDrawer">×</button>
+    </div>
+    <div class="drawer-body" id="reviewList">
+      <div class="trace-empty">暂无待复核工单</div>
+    </div>
+  </aside>
+  <div class="overlay hidden" id="overlay"></div>
+
+  <div class="toast hidden" id="toast"></div>
+
+  <script>window.__INITIAL__ = {{ initial|tojson }};</script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

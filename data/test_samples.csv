@@ -1,0 +1,13 @@
+case_id,text,expected_label,expected_resolution,note
+S01,学习通打不开，一直显示 502 Bad Gateway，作业还没提交,system,auto_answered,平台故障 + 知识库 K006
+S02,老师，作业第 3 题的卷积公式没听懂，能给个例题吗,homework,routed,作业疑问但未命中高置信度 FAQ，按无答案转人工
+S03,期末考试是闭卷还是开卷，可以带计算器吗,exam,auto_answered,考试咨询 + 知识库 K013/K017
+S04,我想申请调课，周四下午和实验课冲突了,admin,pending_review,高影响申请，必须人工确认
+S05,老师，我作业没写完能不能延期，最近发烧了,admin,pending_review,高影响申请（延期）
+S06,老师你用的什么 IDE，看起来很好用,other,auto_closed,非工单，自动归档
+S07,作业提交不了，一直转圈,system,routed,平台故障但无高置信度 FAQ，转人工
+S08,验证码收不到，一直登不上教务系统,system,auto_answered,账号问题 + 知识库 K009
+S09,啊啊啊啊啊啊啊啊,other,rejected,重复噪声，拒绝处理
+S10,,other,rejected,空输入，拒绝处理
+S11,课程和考试冲突了怎么办,exam,routed,已知边界错误：真实标签为 admin，模型判为 exam，因无答案转人工
+S12,这门课可以免听吗，有医院证明,admin,pending_review,高影响申请（免修/免听）

@@ -1,0 +1,14 @@
+{
+  "model_name": "nb",
+  "confidence_threshold": 0.84,
+  "classes": [
+    "homework",
+    "system",
+    "exam",
+    "admin",
+    "other"
+  ],
+  "feature": "char(2-4)+jieba_word(1-2) TF-IDF",
+  "trained_at": "2026-11-27T08:36:21",
+  "train_size": 1128
+}

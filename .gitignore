@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+data/agent_tickets.db
+outputs/agent_trace.jsonl
+*.zip
+outputs/_upload_list.txt
+report/028123233-*.docx
+report/课程工单智能分类Agent_报告_可编辑.docx
+.DS_Store
